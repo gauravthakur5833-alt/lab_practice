@@ -6,32 +6,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>form</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        form{
+            width: 400px;
+            height: 500px;
+            border: 5px solid black;
+            border-radius: 10px;
+            margin:auto;
+            background-color: white;
+         
+        }
+        body{
+            background-color: gray;
+        }
+        h1{
+            text-align: center;
+            font-family: sans-serif;
+        }
+        
+    </style>
 </head>
 
+
 <body>
+    
+    
+
+    
     <h1>Student Registration Portal</h1>
-    <label for="fullname">Full name : </label>
+    
+    <form >
+
+   
+    <label for="fullname">Full name : </label><br>
     <input type="text" id="fullname" name="full name" placeholder="eg. Gaurav">
 
     <br>
+    <hr>
   
 
-    <label for="email">Email : </label>
+    <label for="email">Email : </label><br>
     <input type="email" id="email" name="email" placeholder="eg. gaurav@gmail.com">
 
     <br>
+    <hr>
 
-    <label for="age">Age : </label>
+    <label for="age">Age : </label><br>
     <input type="number" name="age" id="age" placeholder="eg. 18">
 
     <br>
+    <hr>
 
-    <label for="date">Date Of Birth : </label>
+    <label for="date">Date Of Birth : </label><br>
     <input type="date" name="dateofbirth" id="dateofbirth">
 
     <br>
+    <hr>
 
-    <label for="gender">Gender : </label>
+    <label for="gender">Gender : </label><br>
     
     <input type="radio" name="gender" id="Male" value="Male">
     <label for="male">Male</label>
@@ -44,6 +76,7 @@
     <label for="other">Other</label>
 
     <br>
+    <hr>
 
     <label>Skill : </label>
     <br>
@@ -56,6 +89,7 @@
     <input type="checkbox" name="skill" id="C++" value="C++">
     <label for = "C++">C++</label>
     <br>
+    <hr>
 
     <label>select branch:</label><br>
 
@@ -66,7 +100,7 @@
         <option value = "ece" id ="">ECE</option>
         <option value = "cse" id ="">CSE</option>
     </select>
-    
+     </form>
 
 
 
